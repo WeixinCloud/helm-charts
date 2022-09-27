@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  gw:
+  - apiVersion: v2
+    appVersion: 1.20.6
+    created: "2022-09-27T12:10:05.500403636Z"
+    description: A Helm chart for Kubernetes
+    digest: 2264ea755ecb7db13e516346698d78d240aecb51f5a6a90ce9baa0e75477b79f
+    name: gw
+    type: application
+    urls:
+    - https://github.com/WeixinCloud/helm-charts/releases/download/gw-0.1.0/gw-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-27T12:10:05.500412336Z"

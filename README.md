@@ -14,7 +14,7 @@ weixincloud` to see the charts.
 
 To install the gw chart:
 
-    helm install my-gw weixincloud/gw
+    helm install my-gw weixincloud/gw --set secret=<your secret>
 
 To uninstall the chart:
 

@@ -53,6 +53,8 @@ spec:
           env:
             - name: WXGATEWAY_SECRET
               value: "{{ .Values.secret }}"
+            - name: WXGATEWAY_DTYPE
+              value: "K8s"
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}

@@ -3,6 +3,16 @@ entries:
   gw:
   - apiVersion: v2
     appVersion: 1.20.6
+    created: "2022-10-19T07:59:58.106951026Z"
+    description: A Helm chart for Kubernetes
+    digest: 75d3b1da177fbd12aeae7657b7f6d5284f5b31b63f2189d790555b00c31e5e56
+    name: gw
+    type: application
+    urls:
+    - https://github.com/WeixinCloud/helm-charts/releases/download/gw-0.1.2/gw-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.20.6
     created: "2022-09-28T08:04:39.822974647Z"
     description: A Helm chart for Kubernetes
     digest: 1220d0378dcb50e1f6a7d11a8bf20c236e8b9d8d152745ab3d0a75c44a59349d
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/WeixinCloud/helm-charts/releases/download/gw-0.1.0/gw-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-28T08:04:39.822981147Z"
+generated: "2022-10-19T07:59:58.107156627Z"

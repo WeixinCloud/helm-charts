@@ -53,6 +53,10 @@ spec:
           env:
             - name: WXGATEWAY_SECRET
               value: "{{ .Values.secret }}"
+            - name: WXGATEWAY_APPID
+              value: "{{ .Values.appid }}"
+            - name: WXGATEWAY_GW_ID
+              value: "{{ .Values.gwid }}"
             - name: WXGATEWAY_DTYPE
               value: "K8s"
       {{- with .Values.nodeSelector }}

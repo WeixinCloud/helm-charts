@@ -3,6 +3,16 @@ entries:
   gw:
   - apiVersion: v2
     appVersion: 1.20.6
+    created: "2022-10-24T08:20:08.04771858Z"
+    description: DevPlatform Gateway Chart
+    digest: e8a0ef883f0805456e8afe2d2b47351ba23e477e8424277b9c83d8f7aa1f80ec
+    name: gw
+    type: application
+    urls:
+    - https://github.com/WeixinCloud/helm-charts/releases/download/gw-0.2.0/gw-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.20.6
     created: "2022-10-19T07:59:58.106951026Z"
     description: A Helm chart for Kubernetes
     digest: 75d3b1da177fbd12aeae7657b7f6d5284f5b31b63f2189d790555b00c31e5e56
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://github.com/WeixinCloud/helm-charts/releases/download/gw-0.1.0/gw-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-19T07:59:58.107156627Z"
+generated: "2022-10-24T08:20:08.047757783Z"

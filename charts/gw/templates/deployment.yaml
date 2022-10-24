@@ -35,10 +35,10 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: local
-              containerPort: 10087
+              containerPort: 9902
               protocol: TCP
             - name: wx
-              containerPort: 10086
+              containerPort: 9903
               protocol: TCP
           # livenessProbe:
           #   httpGet:
